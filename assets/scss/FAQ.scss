@@ -1,0 +1,162 @@
+@import "_navbar.scss";
+@import "_footer.scss";
+
+// alert
+.discountaalert {
+  .saledis {
+    color: white;
+    font-size: 20px;
+    padding-right: 15px;
+  }
+  #days {
+    font-size: 23px;
+    color: #fac3c3;
+  }
+  #hours {
+    font-size: 23px;
+    color: #fac3c3;
+  }
+  #minutes {
+    font-size: 23px;
+    color: #fac3c3;
+  }
+  #seconds {
+    font-size: 23px;
+    color: #fac3c3;
+  }
+}
+
+.alert {
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #1a4155;
+  color: gold;
+}
+// // // // //
+
+body {
+  background-color: #eee;
+  font-family: sans-serif;
+}
+
+div + div {
+  clear: both;
+}
+
+p {
+  line-height: 1.4em;
+  color: black;
+}
+
+.faq-title {
+  font-size: 2em;
+  margin: 0.4em 0;
+}
+// b248ad
+// 1c376c
+div.seperator {
+  width: 7.5em;
+  background-color: #1c376c;
+  height: 0.17em;
+  margin-left: -1.8em;
+}
+
+.faq-list > div {
+  border-bottom: 0.07em solid #ededed;
+  padding: 1.5em 0em;
+}
+
+.faq-list > div:last-child {
+  border: unset;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+summary:hover {
+  color: #1c376c;
+}
+
+details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-left: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 55px;
+  }
+}
+
+details[open] summary {
+  color: #b248ad;
+}
+
+details[open] p {
+  border-left: 2px solid #b248ad;
+  margin-left: 55px;
+  padding-left: 25px;
+  opacity: 100;
+  transition: all 3s ease;
+}
+
+details[open] summary:after {
+  content: "-";
+  font-size: 3.2em;
+  margin: -33px 0.35em 0 0;
+  font-weight: 200;
+}
+
+.faq-body {
+  width: 70em;
+  margin: 4em auto;
+  box-shadow: 0px 0px 16px #5b5b5b;
+  border-radius: 0.2em;
+  padding: 5em;
+  background-color: #fff;
+}
+
+.faq-list {
+  width: 55em;
+  margin: 1em auto;
+  padding: 2em 0;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after {
+  background: transparent;
+  border-radius: 0.3em;
+  content: "+";
+  color: #1c376c;
+
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: -0.3em 0.65em 0 0;
+  padding: 0;
+  text-align: center;
+  width: 25px;
+}

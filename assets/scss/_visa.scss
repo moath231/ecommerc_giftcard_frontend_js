@@ -1,0 +1,52 @@
+.visa {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+
+  .promotion {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+  }
+
+  .visa-2-2 .button-s button {
+    background-color: #973692;
+    border: none;
+    border-radius: 5px;
+    color: #ffff; /* Dark grey */
+    font-weight: bold;
+    padding: 15px 32px;
+    margin: 5% 0% 0% 35%;
+  }
+
+  .details_info h5 {
+    font-size: 27px;
+    font-family: serif;
+  }
+  .img {
+    background-color: #e0e0e2;
+    height: 620px;
+    width: 585px;
+    margin-top: 27px;
+  }
+
+  .img h5 {
+    font-size: 55px;
+    color: #973692;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: "georgia";
+    font-weight: bold;
+    padding: 50px 0px 0px 35px;
+  }
+  .img .visa-2-2 p {
+    font-family: "georgia";
+    display: inline-block;
+    padding-left: 40px;
+  }
+  .img .visa-2-2 img {
+    width: 245px;
+    padding-left: 40px;
+  }
+}

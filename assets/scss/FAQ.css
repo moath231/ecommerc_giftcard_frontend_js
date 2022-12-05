@@ -1,0 +1,365 @@
+.navbar .L li a {
+  flex: auto;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.navbar .bi {
+  font-size: larger;
+}
+
+.Nbar {
+  box-shadow: 7px 7px 4px #aaaaaa;
+  padding: 2rem 2rem 2rem 2rem;
+  background-color: white;
+}
+
+.footer a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+.footer a, a:active, a:focus {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer img {
+  max-width: 100%;
+  height: auto;
+  background-color: white;
+  width: 270px;
+  height: 50px;
+  padding: 3px;
+}
+
+.footer section {
+  padding: 60px 0;
+  /* min-height: 100vh;*/
+}
+
+.footer .btn {
+  padding: 14px 25px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.footer .red-btn {
+  background: #b248ad;
+  border: 2px solid #b248ad;
+  color: #fff;
+}
+
+.footer .red-btn:hover {
+  background: #1c376c;
+  color: #fff;
+  border-color: #ffffff;
+}
+
+/*---------footer---------*/
+.footer {
+  background-color: #0a3a52;
+  color: #49b4e9;
+  padding: 27px 0;
+  font-size: 17px;
+}
+
+footer h3 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+footer h4 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+.footer .about-footer li i {
+  position: absolute;
+  left: 0;
+}
+
+.footer .about-footer li {
+  padding-left: 40px;
+  position: relative;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.footer .about-footer ul {
+  margin-top: 40px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #4FD1C5;
+}
+
+.footer .footer-title {
+  border-bottom: 2px solid #4FD1C5;
+  padding-bottom: 25px;
+  margin-bottom: 35px;
+}
+
+.footer ul.footer-social {
+  float: right;
+}
+
+.footer ul.footer-social li {
+  display: inline;
+  margin-right: 16px;
+}
+
+.footer ul.footer-social i {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  font-weight: 800;
+}
+
+.footer ul.footer-social li:last-child {
+  margin-right: 0px;
+}
+
+.footer ul.footer-social i:hover {
+  background: #ed1b24;
+  color: #fff;
+}
+
+.footer .page-more-info li {
+  margin-bottom: 31px;
+}
+
+footer .table td:first-child {
+  font-weight: 600;
+  padding-left: 33px;
+}
+
+footer .table td:last-child {
+  text-align: right;
+}
+
+footer .table td {
+  padding: 0px;
+  border: 0;
+}
+
+footer .table td i {
+  position: absolute;
+  left: 0px;
+  font-size: 21px;
+  top: 6px;
+}
+
+footer .table td {
+  position: relative;
+  padding: 4px 0;
+}
+
+footer .table {
+  color: white;
+}
+
+.footer-logo td {
+  padding-right: 4px !important;
+}
+
+.footer-logo td:last-child {
+  padding-right: 0px !important;
+}
+
+footer hr {
+  border-color: #9294a0;
+}
+
+.footer-bottom p {
+  text-align: right;
+  color: white;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+}
+
+.footer .open-hours hr {
+  margin: 30px 0;
+}
+
+.discountaalert .saledis {
+  color: white;
+  font-size: 20px;
+  padding-right: 15px;
+}
+.discountaalert #days {
+  font-size: 23px;
+  color: #fac3c3;
+}
+.discountaalert #hours {
+  font-size: 23px;
+  color: #fac3c3;
+}
+.discountaalert #minutes {
+  font-size: 23px;
+  color: #fac3c3;
+}
+.discountaalert #seconds {
+  font-size: 23px;
+  color: #fac3c3;
+}
+
+.alert {
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #1a4155;
+  color: gold;
+}
+
+body {
+  background-color: #eee;
+  font-family: sans-serif;
+}
+
+div + div {
+  clear: both;
+}
+
+p {
+  line-height: 1.4em;
+  color: black;
+}
+
+.faq-title {
+  font-size: 2em;
+  margin: 0.4em 0;
+}
+
+div.seperator {
+  width: 7.5em;
+  background-color: #1c376c;
+  height: 0.17em;
+  margin-left: -1.8em;
+}
+
+.faq-list > div {
+  border-bottom: 0.07em solid #ededed;
+  padding: 1.5em 0em;
+}
+
+.faq-list > div:last-child {
+  border: unset;
+}
+
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+summary:hover {
+  color: #1c376c;
+}
+
+details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-left: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 55px;
+  }
+}
+details[open] summary {
+  color: #b248ad;
+}
+
+details[open] p {
+  border-left: 2px solid #b248ad;
+  margin-left: 55px;
+  padding-left: 25px;
+  opacity: 100;
+  transition: all 3s ease;
+}
+
+details[open] summary:after {
+  content: "-";
+  font-size: 3.2em;
+  margin: -33px 0.35em 0 0;
+  font-weight: 200;
+}
+
+.faq-body {
+  width: 70em;
+  margin: 4em auto;
+  box-shadow: 0px 0px 16px #5b5b5b;
+  border-radius: 0.2em;
+  padding: 5em;
+  background-color: #fff;
+}
+
+.faq-list {
+  width: 55em;
+  margin: 1em auto;
+  padding: 2em 0;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after {
+  background: transparent;
+  border-radius: 0.3em;
+  content: "+";
+  color: #1c376c;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: -0.3em 0.65em 0 0;
+  padding: 0;
+  text-align: center;
+  width: 25px;
+}/*# sourceMappingURL=FAQ.css.map */
